@@ -1,0 +1,132 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #2ec4b6;
+    color: #0b132b;
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 30px 30px 30px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-top: 1px solid #000000;
+    font-family: 'Kanit', sans-serif;
+    background-color: #2ec4b6;
+    width: 99%;
+    position: fixed; bottom: 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+    
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0b132b;
+    font-family: Rowdies;
+  }
+
+  h1 {
+    font-family: Abril Fatface;
+    margin-left: 25px;
+  }
+
+   li a:hover{
+    color:#2ec4b6;
+    border-radius: 55px;
+    border: none;
+    background-color:#0b132b;
+    padding: 9px 25px;
+    }
+
+    .heart:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-family: 'icons';
+        font-size: 21px;
+        text-indent: 0;
+        font-variant: normal;
+        line-height: 21px;
+      }
+      h1 {
+        position: relative;
+        width: 500px;
+        overflow: inherit;
+        margin: 50px 565px;
+        list-style: none;
+        -webkit-animation: animateHeart 2.5s infinite;
+        animation: animateHeart 2.5s infinite;
+      }
+      h1:before,
+      h1:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 50%;
+        width: 120px;
+        height: 200px;
+        border-radius: 100px 100px 0 0;
+        -webkit-transform: rotate(-45deg) translateZ(0);
+        transform: rotate(-45deg) translateZ(0);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+      }
+      h1:after {
+        left: 26%;
+        -webkit-transform: rotate(45deg) translateZ(0);
+        transform: rotate(45deg) translateZ(0);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+      }
+      @-webkit-keyframes animateHeart {
+        0% {
+          -webkit-transform: scale(0.8);
+        }
+        5% {
+          -webkit-transform: scale(0.9);
+        }
+        10% {
+          -webkit-transform: scale(0.8);
+        }
+        15% {
+          -webkit-transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(0.8);
+        }
+        100% {
+          -webkit-transform: scale(0.8);
+        }
+      }
+      @keyframes animateHeart {
+        0% {
+          transform: scale(0.8);
+        }
+        5% {
+          transform: scale(0.9);
+        }
+        10% {
+          transform: scale(0.8);
+        }
+        15% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.8);
+        }
+        100% {
+          transform: scale(0.8);
+        }
+      }
