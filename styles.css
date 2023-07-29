@@ -9,7 +9,7 @@
     padding: 30px 30px 30px;
     flex-direction: column;
     box-sizing: border-box;
-    border-top: 1px solid #000000;
+    border: 1px solid #000000;
     font-family: 'Kanit', sans-serif;
     background-color: #2ec4b6;
     width: 99%;
@@ -33,7 +33,7 @@
     text-decoration: none;
     color: #0b132b;
     font-family: Rowdies;
-   
+    
   }
 
   h1 {
@@ -49,7 +49,36 @@
     border: none;
     background-color:#0b132b;
     padding: 9px 25px;
+    margin-right: 15px;
     }
 
+    li a {
+        padding: 100px;
+    }
+
+    p {
+        text-align: center;
+        line-height: 20px;
+        color: #343a40;
+        padding-top: 10px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 250px;
+        -webkit-filter: drop-shadow(0px 16px 10px rgba(9, 215, 247, 0.715));
+        -moz-filter: drop-shadow(0px 16px 10px rgba(9, 215, 247, 0.715));
+        -ms-filter: drop-shadow(0px 16px 10px rgba(9, 215, 247, 0.715)); 
+        -o-filter: drop-shadow(0px 16px 10px rgba(9, 215, 247, 0.715));
+        filter: drop-shadow(0px 16px 10px rgba(9, 215, 247, 0.715));
+    }
 
   
